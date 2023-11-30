@@ -1,0 +1,14 @@
+#pragma once
+
+#cmakedefine PREPROCESS_GPU
+
+#cmakedefine MODEL_INPUT_NAME "@MODEL_INPUT_NAME@"
+
+#cmakedefine MODEL_OUTPUT_NAMES "@MODEL_OUTPUT_NAMES@"
+
+#cmakedefine DEPLOY_MODEL "@DEPLOY_MODEL@"
+
+#cmakedefine DEPLOY_MPS "@DEPLOY_MPS@"
+
+#cmakedefine IMG_BYTE_SIZE "@IMG_BYTE_SIZE@"
+
